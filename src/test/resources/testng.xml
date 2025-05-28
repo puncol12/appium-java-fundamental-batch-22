@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test Suite">
+    <listeners>
+        <listener class-name="com.juaracoding.appium.listeners.Hook"></listener>
+    </listeners>
     <test name="Test">
         <classes>
-            <class name="com.juaracoding.appium.AppTest" />
+            <!-- <class name="com.juaracoding.appium.AppTest" /> -->
+            <class name="com.juaracoding.appium.authentications.SignInTest" />
+      <!-- <class name="com.juaracoding.appium.AppTest3" />
+      <class name="com.juaracoding.appium.AppTest4" /> -->
         </classes>
     </test>
+    <!-- <test name="Test 2">
+    <classes>
+      <class name="com.juaracoding.appium.AppTest" />
+      <class name="com.juaracoding.appium.AppTest2" />
+      <class name="com.juaracoding.appium.AppTest3" />
+      <class name="com.juaracoding.appium.AppTest4" />
+    </classes>
+  </test> -->
 </suite>
