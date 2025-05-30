@@ -1,6 +1,3 @@
-/*
- * Test appium pertama 1111
- */
 package com.juaracoding.appium;
 
 import java.net.MalformedURLException;
